@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gothic Name Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gothic Name Generator</h1>
+    <div class="input-section">
+      <label for="motherName">Enter the first two letters of your mother's name:</label>
+      <input type="text" id="motherName" maxlength="2" required>
+      <label for="fatherName">Enter the last two letters of your father's name:</label>
+      <input type="text" id="fatherName" maxlength="2" required>
+      <button onclick="generateGothicName()">Generate</button>
+    </div>
+    <div class="result-section">
+      <h2>Your Gothic Name:</h2>
+      <p id="gothicName">---</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
